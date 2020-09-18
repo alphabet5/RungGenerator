@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RSLogix5000Content SchemaRevision="1.0" SoftwareRevision="32.03" TargetType="Rung" TargetCount="2" ContainsContext="true" Owner="admin" ExportDate="Wed Sep 16 15:10:59 2020" ExportOptions="References NoRawData L5KData DecoratedData Context RoutineLabels AliasExtras IOTags NoStringData ForceProtectedEncoding AllProjDocTrans">
+<Controller Use="Context" Name="Z9">
+<Programs Use="Context">
+<Program Use="Context" Name="Analog_Inputs">
+<Routines Use="Context">
+<Routine Use="Context" Name="AnalogInputs">
+<RLLContent Use="Context">
+<Rung Use="Target" Number="0" Type="N">
+<Comment>
+<![CDATA[*********************************************************************************
+PX_5601
+FP-5601 A to B
+*********************************************************************************]]>
+</Comment>
+<Text>
+<![CDATA[NOP();]]>
+</Text>
+</Rung>
+</RLLContent>
+</Routine>
+</Routines>
+</Program>
+</Programs>
+</Controller>
+</RSLogix5000Content>

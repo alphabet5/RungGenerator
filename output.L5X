@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RSLogix5000Content SchemaRevision="1.0" SoftwareRevision="32.03" TargetType="Rung" TargetCount="2" ContainsContext="true" Owner="admin" ExportDate="Wed Sep 16 15:10:59 2020" ExportOptions="References NoRawData L5KData DecoratedData Context RoutineLabels AliasExtras IOTags NoStringData ForceProtectedEncoding AllProjDocTrans"><Controller Use="Context" Name="Z9"><Programs Use="Context"><Program Use="Context" Name="Analog_Inputs"><Routines Use="Context"><Routine Use="Context" Name="AnalogInputs"><RLLContent Use="Context"><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5601
+A to B
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5601,FP5600:I.Data.0,SIM_ENABLE,PX5601.DisagreeAlarm,PX5601.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5602
+A to D
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5602,FP5600:I.Data.1,SIM_ENABLE,PX5602.DisagreeAlarm,PX5602.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5603
+B to E
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5603,FP5600:I.Data.2,SIM_ENABLE,PX5603.DisagreeAlarm,PX5603.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5604
+C to E
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5604,FP5600:I.Data.3,SIM_ENABLE,PX5604.DisagreeAlarm,PX5604.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5605
+C to F
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5605,FP5600:I.Data.4,SIM_ENABLE,PX5605.DisagreeAlarm,PX5605.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5606
+D to F
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5606,FP5600:I.Data.5,SIM_ENABLE,PX5606.DisagreeAlarm,PX5606.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5607
+D to G
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5607,FP5600:I.Data.6,SIM_ENABLE,PX5607.DisagreeAlarm,PX5607.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5608
+E to H
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5608,FP5600:I.Data.7,SIM_ENABLE,PX5608.DisagreeAlarm,PX5608.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5609
+G to H
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5609,FP5600:I.Data.8,SIM_ENABLE,PX5609.DisagreeAlarm,PX5609.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5501
+A to B
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5501,FP5600:I.Data.0,SIM_ENABLE,PX5501.DisagreeAlarm,PX5501.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5502
+A to D
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5502,FP5500:I.Data.1,SIM_ENABLE,PX5502.DisagreeAlarm,PX5502.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5503
+B to E
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5503,FP5500:I.Data.2,SIM_ENABLE,PX5503.DisagreeAlarm,PX5503.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5504
+C to E
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5504,FP5500:I.Data.3,SIM_ENABLE,PX5504.DisagreeAlarm,PX5504.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5505
+C to F
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5505,FP5500:I.Data.4,SIM_ENABLE,PX5505.DisagreeAlarm,PX5505.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5506
+D to F
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5506,FP5500:I.Data.5,SIM_ENABLE,PX5506.DisagreeAlarm,PX5506.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5507
+D to G
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5507,FP5500:I.Data.6,SIM_ENABLE,PX5507.DisagreeAlarm,PX5507.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5508
+E to H
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5508,FP5500:I.Data.7,SIM_ENABLE,PX5508.DisagreeAlarm,PX5508.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5509
+G to H
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5509,FP5500:I.Data.8,SIM_ENABLE,PX5509.DisagreeAlarm,PX5509.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5401
+A to B
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5401,FP5400:I.Data.0,SIM_ENABLE,PX5401.DisagreeAlarm,PX5401.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5402
+A to D
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5402,FP5400:I.Data.1,SIM_ENABLE,PX5402.DisagreeAlarm,PX5402.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5403
+B to E
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5403,FP5400:I.Data.2,SIM_ENABLE,PX5403.DisagreeAlarm,PX5403.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5404
+C to E
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5404,FP5400:I.Data.3,SIM_ENABLE,PX5404.DisagreeAlarm,PX5404.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5405
+C to F
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5405,FP5400:I.Data.4,SIM_ENABLE,PX5405.DisagreeAlarm,PX5405.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5406
+D to F
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5406,FP5400:I.Data.5,SIM_ENABLE,PX5406.DisagreeAlarm,PX5406.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5407
+D to G
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5407,FP5400:I.Data.6,SIM_ENABLE,PX5407.DisagreeAlarm,PX5407.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5408
+E to H
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5408,FP5400:I.Data.7,SIM_ENABLE,PX5408.DisagreeAlarm,PX5408.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5409
+G to H
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5409,FP5400:I.Data.8,SIM_ENABLE,PX5409.DisagreeAlarm,PX5409.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5201
+A to B
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5201,FP5200:I.Data.0,SIM_ENABLE,PX5201.DisagreeAlarm,PX5201.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5202
+A to D
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5202,FP5200:I.Data.1,SIM_ENABLE,PX5202.DisagreeAlarm,PX5202.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5203
+B to E
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5203,FP5200:I.Data.2,SIM_ENABLE,PX5203.DisagreeAlarm,PX5203.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5204
+C to E
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5204,FP5200:I.Data.3,SIM_ENABLE,PX5204.DisagreeAlarm,PX5204.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5205
+C to F
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5205,FP5200:I.Data.4,SIM_ENABLE,PX5205.DisagreeAlarm,PX5205.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5206
+D to F
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5206,FP5200:I.Data.5,SIM_ENABLE,PX5206.DisagreeAlarm,PX5206.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5207
+D to G
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5207,FP5200:I.Data.6,SIM_ENABLE,PX5207.DisagreeAlarm,PX5207.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5208
+E to H
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5208,FP5200:I.Data.7,SIM_ENABLE,PX5208.DisagreeAlarm,PX5208.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5209
+G to H
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5209,FP5200:I.Data.8,SIM_ENABLE,PX5209.DisagreeAlarm,PX5209.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5101
+A to B
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5101,FP5100:I.Data.0,SIM_ENABLE,PX5101.DisagreeAlarm,PX5101.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5102
+A to D
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5102,FP5100:I.Data.1,SIM_ENABLE,PX5102.DisagreeAlarm,PX5102.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5103
+B to E
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5103,FP5100:I.Data.2,SIM_ENABLE,PX5103.DisagreeAlarm,PX5103.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5104
+C to E
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5104,FP5100:I.Data.3,SIM_ENABLE,PX5104.DisagreeAlarm,PX5104.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5105
+C to F
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5105,FP5100:I.Data.4,SIM_ENABLE,PX5105.DisagreeAlarm,PX5105.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5106
+D to F
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5106,FP5100:I.Data.5,SIM_ENABLE,PX5106.DisagreeAlarm,PX5106.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5107
+D to G
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5107,FP5100:I.Data.6,SIM_ENABLE,PX5107.DisagreeAlarm,PX5107.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5108
+E to H
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5108,FP5100:I.Data.7,SIM_ENABLE,PX5108.DisagreeAlarm,PX5108.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5109
+G to H
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5109,FP5100:I.Data.8,SIM_ENABLE,PX5109.DisagreeAlarm,PX5109.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5001
+A to D
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5001,FP5000:I.Data.0,SIM_ENABLE,PX5001.DisagreeAlarm,PX5001.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5002
+C to D
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5002,FP5000:I.Data.1,SIM_ENABLE,PX5002.DisagreeAlarm,PX5002.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5003
+C to G
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5003,FP5000:I.Data.2,SIM_ENABLE,PX5003.DisagreeAlarm,PX5003.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5004
+B to E
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5004,FP5000:I.Data.3,SIM_ENABLE,PX5004.DisagreeAlarm,PX5004.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5005
+E to F
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5005,FP5000:I.Data.4,SIM_ENABLE,PX5005.DisagreeAlarm,PX5005.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5006
+F to H
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5006,FP5000:I.Data.5,SIM_ENABLE,PX5006.DisagreeAlarm,PX5006.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5011
+A to B
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5011,PLACEHOLDER,SIM_ENABLE,PX5011.DisagreeAlarm,PX5011.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5012
+A to C
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5012,PLACEHOLDER,SIM_ENABLE,PX5012.DisagreeAlarm,PX5012.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5013
+B to D
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5013,PLACEHOLDER,SIM_ENABLE,PX5013.DisagreeAlarm,PX5013.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX5014
+C to D
+*********************************************************************************</Comment><Text>AOI_DigInput(PX5014,PLACEHOLDER,SIM_ENABLE,PX5014.DisagreeAlarm,PX5014.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX55011
+A to C
+*********************************************************************************</Comment><Text>AOI_DigInput(PX55011,PLACEHOLDER,SIM_ENABLE,PX55011.DisagreeAlarm,PX55011.DisagreeAlarmAck);</Text></Rung><Rung Use="Target" Number="0" Type="N"><Comment>*********************************************************************************
+PX55012
+C to D
+*********************************************************************************</Comment><Text>AOI_DigInput(PX55012,PLACEHOLDER,SIM_ENABLE,PX55012.DisagreeAlarm,PX55012.DisagreeAlarmAck);</Text></Rung></RLLContent></Routine></Routines></Program></Programs></Controller></RSLogix5000Content>
